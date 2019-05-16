@@ -1,0 +1,61 @@
+{
+  "data": "/decaNLP/.data/",
+  "save": "/decaNLP/results",
+  "embeddings": "/decaNLP/.embeddings",
+  "train_tasks": [
+    "cnn_dailymail"
+  ],
+  "train_iterations": null,
+  "train_batch_tokens": [
+    10000
+  ],
+  "jump_start": 0,
+  "n_jump_start": 0,
+  "num_print": 15,
+  "log_every": 100,
+  "save_every": 1000,
+  "val_tasks": [
+    "cnn_dailymail"
+  ],
+  "val_every": 1000,
+  "val_filter": true,
+  "val_batch_size": [
+    256
+  ],
+  "vocab_tasks": null,
+  "max_output_length": 100,
+  "max_effective_vocab": 1000000,
+  "max_generative_vocab": 50000,
+  "max_train_context_length": 400,
+  "max_val_context_length": 400,
+  "max_answer_length": 50,
+  "subsample": 20000000,
+  "lower": true,
+  "model": "MultitaskQuestionAnsweringNetwork",
+  "dimension": 200,
+  "rnn_layers": 1,
+  "transformer_layers": 2,
+  "transformer_hidden": 150,
+  "transformer_heads": 3,
+  "dropout_ratio": 0.2,
+  "transformer_lr": true,
+  "cove": true,
+  "warmup": 800,
+  "grad_clip": 1.0,
+  "beta0": 0.9,
+  "load": null,
+  "resume": false,
+  "seed": 123,
+  "gpus": [
+    1
+  ],
+  "backend": "gloo",
+  "commit": "a62377d6ddfde8e5656728c3ea3495c010b51ed7",
+  "exist_ok": false,
+  "token_testing": false,
+  "reverse": false,
+  "world_size": 1,
+  "timestamp": "18/08/31/09/53/03.220441",
+  "log_dir": "/decaNLP/results/18/08/31/09/53/03.220441/cnn_dailymail,MultitaskQuestionAnsweringNetwork,1g/a62377d",
+  "dist_sync_file": "/decaNLP/results/18/08/31/09/53/03.220441/cnn_dailymail,MultitaskQuestionAnsweringNetwork,1g/a62377d/distributed_sync_file"
+}

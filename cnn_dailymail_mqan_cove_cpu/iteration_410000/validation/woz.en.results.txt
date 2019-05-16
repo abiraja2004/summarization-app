@@ -1,0 +1,1 @@
+{"joint_goal_em":0.0,"turn_request_em":32.1686746988,"turn_goal_em":53.3734939759,"avg_dialogue":16.0843373494,"em":0.0,"nf1":17.2899266892,"nem":0.2409638554}
